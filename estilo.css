@@ -8,26 +8,28 @@ p{
 	font-size: 13px;
 	text-align: justify;
 }
-.container, .book-content{
+.contenedor, .contenido-libro{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.container{
+.contenedor{
 	width: 100%;
 	height: 100vh;
 	background: #2d6f75;
 }
-.book-content{
+
+
+.contenido-libro{
 	width: 65%;
 	min-width: 250px;
-	max-width: 400px;
-	height: 330px;
+	max-width: 700px; /* Ancho del libro*/
+	height: 660px;
 	position: relative;
 	perspective: 1000px;
 	transition: 1s;
 }
-.book{
+.libro{
 	position: absolute;
 	width: 65%;
 	height: 100%;
@@ -44,7 +46,6 @@ p{
 	overflow: hidden;
 }
 .face-front{
-	box-shadow: inset 3px 0px 20px -7px black;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
@@ -53,15 +54,14 @@ p{
 	top: 0;
 	left: 0;
 	transform: translateZ(-1px) rotateY(180deg);
-	box-shadow: inset -3px 1px 20px -7px black;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
 #portada{
-	background: url('../img/bookPortada.jpg');
+	background: url('../img/bookPortada.jpg'); /* Imgen portada*/
 }
 #portada-back{
-	background: url('../img/portadaBack.jpg');
+	background: url('../img/portadaBack.jpg'); /* Imagen contra portada*/
 }
 #portada, #portada-back{
 	background-size: 100% 100%;
