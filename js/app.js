@@ -43,7 +43,5 @@ for (let i = 0; i < uno.length; i++) {
 			flip.classList.remove("trnsf");
 			flip.classList.add("trnsf-reset");
 		}
-
 	});
 }
-

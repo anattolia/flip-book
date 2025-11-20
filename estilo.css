@@ -8,6 +8,11 @@ p{
 	font-size: 13px;
 	text-align: justify;
 }
+
+img {
+	width: 100%;
+}
+
 .contenedor, .contenido-libro{
 	display: flex;
 	justify-content: center;
@@ -18,8 +23,6 @@ p{
 	height: 100vh;
 	background: #c1c1c1;
 }
-
-
 .contenido-libro{
 	width: 65%;
 	min-width: 250px;
@@ -59,10 +62,10 @@ p{
 	border-bottom-right-radius: 3px;
 }
 #portada{
-	background: url('../img/bookPortada.jpg'); /* Imagen portada*/
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/330px-American_Shorthair.jpg'); /* Imagen portada*/
 }
 #portada-back{
-	background: url('../img/portadaBack.jpg'); /* Imagen contra portada*/
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/330px-American_Shorthair.jpg'); /* Imagen contra portada*/
 }
 #portada, #portada-back{
 	background-size: 100% 100%;
